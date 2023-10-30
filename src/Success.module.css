@@ -1,0 +1,25 @@
+.mainContainer {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  border-radius: 25px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+}
+
+h1 {
+  line-height: normal;
+}
+
+span {
+  font-weight: 700;
+}
+
+.button-item button {
+  width: 100%;
+}
