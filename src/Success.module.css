@@ -2,14 +2,24 @@
   background-color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  border-radius: 25px;
-  padding: 50px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 400px;
-  height: 400px;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.message {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: start;
+}
+
+.message img {
+  height: 60px;
 }
 
 h1 {
@@ -20,6 +30,47 @@ span {
   font-weight: 700;
 }
 
+.button-item {
+}
+
 .button-item button {
   width: 100%;
+}
+
+@media screen and (min-width: 376px) {
+  .mainContainer {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+    height: 400px;
+    justify-content: center;
+  }
+
+  .message img {
+    height: 50px;
+  }
+
+  h1 {
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  span {
+    font-weight: 700;
+  }
+
+  .button-item {
+    margin-bottom: 20px;
+  }
+
+  .button-item button {
+    width: 100%;
+  }
 }

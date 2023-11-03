@@ -4,13 +4,9 @@ import successStyles from "./Success.module.css";
 export default function Success({ email, onClick }) {
   return (
     <div className={successStyles.mainContainer}>
-      <div className="">
+      <div className={successStyles["message"]}>
         <img src={successLogo} />
-      </div>
-      <div className="">
         <h1>Thanks for subscribing!</h1>
-      </div>
-      <div className="">
         <p>
           A confirmation email has been sent to
           <span> {email}</span>. Please open it and click the button inside to
